@@ -1,1 +1,106 @@
-registration form
+//registration form
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content=ie=edge">
+    <meta name="description" content ="This is Description">
+    <meta name ="keyword" content="html,css">
+    <meta name="robot" content="INDEX,FOLLOW">
+    <title>Document</title>
+    <style>
+        .HEAD {
+            margin-left: 202px;
+            
+        }
+        .nam {
+            font-size: 24px;
+            margin-left:50px ;
+            margin-top: 40px;
+        }
+        .mail {
+            font-size: 24px;
+            margin-left:50px ;
+            margin-top: 25px;
+
+        }
+        .gen {
+            font-size: 24px;
+            margin-left:50px ;
+            margin-top: 25px;
+
+        }
+        .game {
+            font-size: 24px;
+            margin-left:50px ;
+             margin-top: 25px;
+        }
+        .sumbit {
+            font-size: 24px;
+            margin-left:50px ;
+            margin-top: 25px;
+
+        
+        }
+        .reset {
+            font-size: 24px;
+            margin-left:50px ;
+            margin-top: 25px;
+
+        }
+
+    </style>
+</head>
+<body>
+   <h1 class="HEAD">Registration form for Sports Day</h1>
+   <form action="backend.php"></form>
+   <div class="nam">
+    Name:<input type="text" name="My name" id="name">
+
+   </div>
+<br>
+   <div class="mail"> 
+    Email:<input type="email" name="My email">
+    </div>
+    <br>
+<!-- <br>
+<div> 
+    Date:<input type="date" name="MyDate">
+</div>
+<div> 
+    Bonus:<input type="number" name="My bonus">
+</div>
+<div> 
+    Are you eligibile:<input type="checkbox" name="My eligibilty" checked> -->
+    
+<!-- </div> -->
+
+<div class="gen"> 
+    Gender: Male<input type="radio" name="My gender">female <input type="radio" name="My gender">
+    other <input type="radio" name="my gender">
+</div>
+<br>
+<br>
+<label class="game" for="car">Select Game to play:</label>
+<select name="mycar" id="car">
+    <option value="chess">Chess</option>
+    <option value="carrom" selected>Carrom</option>
+    <option value="tennis" selected>Tabel tennis</option>
+    <option value="bad" selected>Badminton</option>
+</select>
+<br>
+<br>
+<div> 
+<input type="submit" class="sumbit" value="Submit Now">
+<input type="reset"  class="reset" value="Reset Now">
+</div>
+<!-- <div> 
+    write about you: <br><textarea name="My text" cols="30" rows="10">
+    </div> -->
+
+</body>
+</html>
+
+
